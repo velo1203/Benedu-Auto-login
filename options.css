@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
 }
-input {
+.password-input {
     width: 300px;
     height: 10px;
     border-radius: 5px;
@@ -21,15 +21,21 @@ input {
     margin: 5px;
     font-size: 25px;
 }
-button {
+
+label {
+    font-size: 25px;
+    margin: 5px;
+}
+.save-button {
     width: 10%;
     height: 50px;
     border-radius: 5px;
     border: 1px solid #ccc;
     padding: 5px;
     margin: 5px;
+    font-size: 20px;
 }
-button:hover {
+.save-button:hover {
     background-color: #ccc;
     cursor: pointer;
 }
